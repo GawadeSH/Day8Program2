@@ -16,6 +16,9 @@ public class LineComparisonProgram
 
         System.out.println(len1 + " .equals " + len2 + ": " + len1.equals(len2));
 
+        int a=(len1.compareTo(len2));
+        System.out.println(a);
+
     }
     public static void main(String[] args)
     {
